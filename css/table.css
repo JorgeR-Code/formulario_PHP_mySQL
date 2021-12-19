@@ -1,0 +1,43 @@
+table{
+    border-collapse: collapse; 
+    margin: auto; 
+}
+
+table ,td, th{
+    color: black;
+    background-color: #ffff;
+    border: 1px solid black;
+}
+
+td, th { 
+    width: 150px;
+    height: 35px; 
+    text-align: center;
+}
+
+
+.actualizar{
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: rgb(47, 120, 255);
+    transition-duration: 0.4s;
+    border-radius: 5px;
+}
+
+.eliminar{
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: rgb(230, 68, 68);
+    transition-duration: 0.4s;
+    border-radius: 5px;
+}
